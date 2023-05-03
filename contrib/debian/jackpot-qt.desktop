@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Modden 
+Comment=Modden P2P Cryptocurrency
+Comment[fr]=Modden, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Modden, eşten eşe kriptografik sanal para birimi
+Exec=modden-qt %u
+Terminal=false
+Type=Application
+Icon=pivx128
+MimeType=x-scheme-handler/modden;
+Categories=Office;Finance;
+StartupWMClass=modden-qt
