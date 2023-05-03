@@ -72,7 +72,7 @@ class FrameworkInfo(object):
        self.destinationDirectory)
 
     def isDylib(self):
-        return self.frameworkName.enModdenith(".dylib")
+        return self.frameworkName.endswith(".dylib")
 
     def isQtFramework(self):
         if self.isDylib():
@@ -104,7 +104,7 @@ class FrameworkInfo(object):
         info.sourceFilePath = path
         info.installName = path
 
-        if path.enModdenith(".dylib"):
+        if path.endswith(".dylib"):
             dirname, filename = os.path.split(path)
             info.frameworkName = filename
             info.frameworkDirectory = dirname
@@ -124,7 +124,7 @@ class FrameworkInfo(object):
             i = 0
             # Search for the .framework directory
             for part in parts:
-                if part.enModdenith(".framework"):
+                if part.endswith(".framework"):
                     break
                 i += 1
             if i == len(parts):
@@ -190,10 +190,10 @@ class DeploymentInfo(object):
         nameDot = "%s." % name
         libNameDot = "lib%s." % name
         for framework in self.deployedFrameworks:
-            if framework.enModdenith(".framework"):
+            if framework.endswith(".framework"):
                 if framework.startswith(nameDot):
                     return True
-            elif framework.enModdenith(".dylib"):
+            elif framework.endswith(".dylib"):
                 if framework.startswith(libNameDot):
                     return True
         return False
@@ -212,7 +212,7 @@ def getFrameworks(binaryPath, verbose):
 
     otoolLines = o_stdout.split("\n")
     otoolLines.pop(0) # First line is the inspected binary
-    if ".framework" in binaryPath or binaryPath.enModdenith(".dylib"):
+    if ".framework" in binaryPath or binaryPath.endswith(".dylib"):
         otoolLines.pop(0) # Frameworks and dylibs list themselves as a dependency.
 
     libraries = []
@@ -418,7 +418,7 @@ def deployPlugins(appBundleInfo, deploymentInfo, strip, verbose):
 
         for pluginName in filenames:
             pluginPath = os.path.join(pluginDirectory, pluginName)
-            if pluginName.enModdenith("_debug.dylib"):
+            if pluginName.endswith("_debug.dylib"):
                 # Skip debug plugins
                 continue
             elif pluginPath == "imageformats/libqsvg.dylib" or pluginPath == "iconengines/libqsvgicon.dylib":
