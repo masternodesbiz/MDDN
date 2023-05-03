@@ -1827,7 +1827,7 @@ QComboBox[cssClass="btn-combo-chart-selected"]::down-arrow {
 QComboBox[cssClass="btn-combo-chart-selected"]:on {
   padding-top: 10px;
   padding-left: 10px;
-  background-color: #128E92;
+  background-color: #ffffff;
 }
 
 QComboBox[cssClass="btn-combo-chart-selected"]:disabled {
