@@ -1,0 +1,82 @@
+compat/libbitcoin_util_a-glibc_sanity.o: compat/glibc_sanity.cpp \
+  config/pivx-config.h \
+  /opt/Projects/ModdenV2/depends/x86_64-apple-darwin14/native/bin/../include/c++/v1/cstddef \
+  /opt/Projects/ModdenV2/depends/x86_64-apple-darwin14/native/bin/../include/c++/v1/__config \
+  /opt/Projects/ModdenV2/depends/x86_64-apple-darwin14/native/bin/../lib/clang/3.7.1/include/stddef.h \
+  /opt/Projects/ModdenV2/depends/x86_64-apple-darwin14/native/bin/../lib/clang/3.7.1/include/__stddef_max_align_t.h \
+  /opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/select.h \
+  /opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/appleapiopts.h \
+  /opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/cdefs.h \
+  /opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_symbol_aliasing.h \
+  /opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_posix_availability.h \
+  /opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types.h \
+  /opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/machine/_types.h \
+  /opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/i386/_types.h \
+  /opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_def.h \
+  /opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_timespec.h \
+  /opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_timeval.h \
+  /opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_time_t.h \
+  /opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_suseconds_t.h \
+  /opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_sigset_t.h \
+  /opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_setsize.h \
+  /opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_set.h \
+  /opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_clr.h \
+  /opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_isset.h \
+  /opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_zero.h \
+  /opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_copy.h \
+  /opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_select.h
+
+config/pivx-config.h:
+
+/opt/Projects/ModdenV2/depends/x86_64-apple-darwin14/native/bin/../include/c++/v1/cstddef:
+
+/opt/Projects/ModdenV2/depends/x86_64-apple-darwin14/native/bin/../include/c++/v1/__config:
+
+/opt/Projects/ModdenV2/depends/x86_64-apple-darwin14/native/bin/../lib/clang/3.7.1/include/stddef.h:
+
+/opt/Projects/ModdenV2/depends/x86_64-apple-darwin14/native/bin/../lib/clang/3.7.1/include/__stddef_max_align_t.h:
+
+/opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/select.h:
+
+/opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/appleapiopts.h:
+
+/opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/cdefs.h:
+
+/opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_symbol_aliasing.h:
+
+/opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_posix_availability.h:
+
+/opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types.h:
+
+/opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/machine/_types.h:
+
+/opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/i386/_types.h:
+
+/opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_pthread/_pthread_types.h:
+
+/opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_def.h:
+
+/opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_timespec.h:
+
+/opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_timeval.h:
+
+/opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_time_t.h:
+
+/opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_suseconds_t.h:
+
+/opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_sigset_t.h:
+
+/opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_setsize.h:
+
+/opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_set.h:
+
+/opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_clr.h:
+
+/opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_isset.h:
+
+/opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_zero.h:
+
+/opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_copy.h:
+
+/opt/Projects/ModdenV2/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_select.h:
